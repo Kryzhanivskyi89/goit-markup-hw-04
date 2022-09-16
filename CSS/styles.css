@@ -205,7 +205,16 @@ body {
     padding-top: 200px;
     padding-bottom: 200px;
 }
-
+.overlay {
+    max-width: 1600px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(../img/main-hiro.jpg);
+    background-repeat: no-repeat;
+    background-position: cover;
+    background-color: #000000;
+}
 .section-h1 {
     color: var(--adresa-color);
     font-size: 44px;
@@ -248,7 +257,12 @@ body {
 
 .advantage-items:not(:first-child) {
     margin-left: 30px;
-    
+}
+.advantage-punktualnist {
+    background-image: url(../img/Icons/uvaga.svg);
+    background-repeat: no-repeat;
+    background-position: cover;
+    background-color: #000000;
 }
 
 .advantage-h3 {
@@ -295,16 +309,13 @@ body {
 }
 
 .container-team {
-    background-color: #F5F4FA;
-    
-   
+    background-color: #F5F4FA;      
 }
 
 .team-list {
     display: flex;
     margin: 0px;
-    justify-content: space-around;
-    
+    justify-content: space-around;    
 }
 
 
@@ -317,6 +328,7 @@ body {
     border-left: 2px solid #EEEEEE;
     border-right: 2px solid #EEEEEE;
     border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 .team-h3 {
     color: var(--primary-color);
@@ -340,6 +352,42 @@ body {
     justify-content: center;
     padding-top: 10px;
     padding-bottom: 30px;
+}
+.team-social {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 16px;
+    padding-bottom: 30px;
+}
+.team-social-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #ffffff;
+    width: 44px;
+    height: 44px;
+}
+.team-social-item:hover,
+.team-social-item:focus {
+    background-color: var(--logo-color);
+}
+.social {
+    fill: #111111;
+}
+.social-item:hover,
+.social-item:focus {
+    background-color: var(#ffffff);
+}
+.clients {
+    display: flex;
+    margin: 0px;
+    justify-content: space-around;
+}
+.links-clients:hover,
+.links-clients:focus {
+    color: var(--black);
 }
 
 /*  footer  */
