@@ -258,13 +258,9 @@ body {
 .advantage-items:not(:first-child) {
     margin-left: 30px;
 }
-.advantage-punktualnist {
-    background-image: url(../img/Icons/uvaga.svg);
-    background-repeat: no-repeat;
-    background-position: cover;
-    background-color: #000000;
+.advantage-uvaha {
+    
 }
-
 .advantage-h3 {
     color: var(--primary-color);
     font-size: 14px;
