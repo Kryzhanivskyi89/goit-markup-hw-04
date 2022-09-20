@@ -318,7 +318,7 @@ body {
 }
 .advantage-planuvannya {
     display: inline-flex;
-    background-image: url(../img/icons/planuvannya.svg);
+    background-image: url(../img/icons/plan.svg);
     background-color: #F5F4FA;
     width: 270px;
     height: 120px;
@@ -328,7 +328,7 @@ body {
 }
 .advantage-tehnologii {
     display: inline-flex;
-    background-image: url(../img/icons/instagram.svg);
+    background-image: url(../img/icons/tehnologii.svg);
     background-color: #F5F4FA;
     width: 270px;
     height: 120px;
