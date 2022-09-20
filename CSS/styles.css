@@ -180,17 +180,17 @@ body {
 
 .portfolio-item {
     margin-bottom: 30px;
-}
+    }
 .portfolio-item:not(:nth-child(2*1+3)) {
     margin-left: 30px;
 }
 .portfolio-link {
     display: block;
+    text-decoration: none;
 }
 .portfolio-link:hover,
-.portfolio-link:focus {    
-        border: 1px solid #EEEEEE;
-        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+.portfolio-link:focus {       
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .border {
     border-bottom: 2px solid #EEEEEE;
@@ -207,6 +207,7 @@ body {
     display: flex;
     padding-top: 20px;
     padding-left: 20px;
+    
 }
 
 .portfolio-p {
@@ -436,6 +437,7 @@ body {
     align-items: center;
     border-radius: 50%;
     background-color: #ffffff;
+    color: #AFB1B8;
     
     width: 44px;
     height: 44px;
@@ -443,10 +445,10 @@ body {
 .team-social-item:hover,
 .team-social-item:focus {
     background-color: var(--logo-color);
-    
+    color: #FFFFFF;
 }
 .social {
-    fill: #AFB1B8;
+    fill: currentColor;
 }
 
 .social:hover,
